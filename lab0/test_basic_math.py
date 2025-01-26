@@ -12,7 +12,7 @@ class MATHTestCase(unittest.TestCase):
         b1 = [[7, 8],
              [9, 10],
              [11, 12]]
-        self.assertEqual(basic_math.matrix_multiplication(a1, b1), [[58, 64],[139, 154]])
+        self.assertEqual(basic_math.matrix_multiplication(a1, b1), [[58, 64], [139, 154]])
 
         a2 = [[1, 2],
              [3, 4]]
